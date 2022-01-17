@@ -2,9 +2,8 @@
 
 // Premiere ligne
 
-
-echo "Bienvenue". ;
-
+$name = strip_tags($_POST['fname']);
+echo "Bienvenue".$name ;
 
 
 
